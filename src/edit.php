@@ -22,7 +22,7 @@
             <label for="email">Correo electrónico</label>
             <input type="email" name="email" id="email" value="<?=$result["email"] ?>" required>
             <button type="submit" name="action" value="update">Actualizar</button>
-            <button type="submit" name="action" value="delete" name="delete">Eliminar</button>
+            <button type="submit" name="delete" value="delete">Eliminar</button>
         </fieldset>
         <?php
 
